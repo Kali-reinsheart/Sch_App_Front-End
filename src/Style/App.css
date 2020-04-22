@@ -1,0 +1,152 @@
+/* setting body background */
+
+body{
+  background-color: #efefef;
+}
+
+.bar1{
+  width: 60%;
+}
+
+.bar2{
+  width: 40%;
+}
+
+.kwasi{
+  font-size: 2rem;
+}
+.tutus{
+  padding-right: 0 !important;
+}
+
+
+.loading{
+  text-decoration: none;
+}
+.loading:hover{
+  background: transparent;
+}
+
+/* setting navbar height  i wanted it small because of the header*/
+
+.navbar{
+  max-height: 35px;
+ 
+  
+}
+
+/* this is the navba-brand that has the word admin at the top its dedicated for a logo its also a link*/
+.navbar-brand{
+  background: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-right: 30px;
+
+}
+/* removing the hover effects that its asscociated with by other navbar links */
+.navbar-brand:hover{
+  background: transparent;
+}
+
+/* setting a gradient background for the active class */
+li
+
+.active{
+  background: linear-gradient(180deg,rgba(23, 95, 212, 0.055),rgb(44, 133, 250));
+  border-radius: 5px;
+}
+.active:hover{
+  background: linear-gradient(360deg,rgba(23, 95, 212, 0.055),rgb(44, 133, 250));
+  
+}
+
+.breadcrumb{
+  min-height: 30px;
+}
+
+#breadcrumb ol{
+  font-weight: 300;
+}
+
+
+.theme1{
+  color: white !important;
+  background:rgb(6, 75, 165)!important;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none !important;
+  padding-left: 1rem !important;
+  color: white;
+  
+}
+
+.navbar-nav > li >a{
+  padding-top: 3px;
+  margin-left: 5px;
+  padding-bottom:0;
+  min-height: 30px;
+  border-radius: 5px;
+ 
+  
+
+}
+
+.navbar-nav > li > small{
+  padding-top : 8;
+}
+
+a:hover{
+  color: rgb(255, 255, 255) !important;
+  text-transform: bold;
+  background: linear-gradient(360deg,rgba(23, 95, 212, 0.055),rgb(44, 133, 250));
+  
+}
+small{
+  font-size: smaller !important;
+}
+
+.non:hover{
+  background: transparent;
+
+}
+.header{
+  background: #010033;
+  color: white !important;
+  margin-bottom: 15px;
+  max-height: 80px;
+}
+
+.header .create{
+  padding-top: 20px;
+}
+.breadcrumb{
+  background: #cccccc;
+  color: #333333;
+}
+
+.breadcrumb a{
+  color: #333333;
+}
+
+.progress{
+  background: rgb(255, 255, 255);
+  
+}
+.card-header{
+
+  color: white;
+  font-weight: 200 !important;
+
+}
+
+.tile{
+  background: rgb(199, 193, 193);
+  border-style: ridge;
+}
+
+.tile:hover{
+  background: rgb(179, 173, 173);
+}
